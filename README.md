@@ -1,10 +1,23 @@
-Project Overview
+# Student Mental Health Risk Prediction Using Machine Learning
 
-This project investigates the application of  three machine learning models (Logistic Regression, Decision Tree and Random Forest) to predict student mental health outcomes using two publicly available datasets covering depression and stress. The supervised models were trained and compared to determine the most effective approach for early identification of at-risk students.
+A comparative machine learning project that predicts **student depression** and **stress levels** using supervised learning models. The project compares **Logistic Regression, Decision Tree, and Random Forest** across two publicly available datasets, demonstrating how effective data preprocessing and feature engineering improve predictive performance while maintaining model interpretability.
 
-Business Problem
+Key Achievement: Logistic Regression achieved the highest predictive performance on both datasets, highlighting the importance of data quality over model complexity.
 
-Universities often collect large amounts of student data but lack predictive systems capable of identifying students requiring early mental health intervention.
+
+## Project Overview
+
+Universities collect large amounts of student-related data, yet many lack systems capable of identifying students at risk of mental health challenges before they escalate. Early identification can support timely interventions and improve student wellbeing and academic success.
+
+This project applies supervised machine learning techniques to predict two important mental health outcomes (depression and stress) using two publicly available student datasets. Three classification models were developed, trained and evaluated to determine which algorithm provides the best balance between predictive performance and interpretability.
+
+The project demonstrates an end-to-end data science workflow, including data cleaning, feature engineering, exploratory data analysis, model development, robustness testing and result interpretation.
+
+## Business Problem
+
+Mental health issues such as stress and depression are increasingly affecting university students worldwide. While universities routinely collect academic and demographic information, these data are rarely leveraged to support proactive mental health interventions.
+
+The objective of this project is to investigate whether machine learning can accurately identify students at risk using structured student data, enabling earlier intervention and more informed decision-making.
 
 Objectives
 
