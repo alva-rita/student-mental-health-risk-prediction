@@ -19,15 +19,40 @@ Mental health issues such as stress and depression are increasingly affecting un
 
 The objective of this project is to investigate whether machine learning can accurately identify students at risk using structured student data, enabling earlier intervention and more informed decision-making.
 
-Objectives
+## Objectives
 
-The objective of this project is to:
-Predict student depression
-Predict student stress levels
-Compare three ML algorithms
-Evaluate model robustness
-Interpret important predictors
+The primary objectives of this project were to:
 
+- Develop machine learning models capable of predicting student **depression** and **stress** using structured student datasets.
+- Compare the performance of **Logistic Regression**, **Decision Tree**, and **Random Forest** classifiers.
+- Evaluate model performance using **Accuracy, Precision, Recall, F1-score, and Confusion Matrices**.
+- Assess model robustness under real-world data conditions, including missing values, outliers, and multicollinearity.
+- Identify the most influential factors associated with student mental health outcomes.
+- Demonstrate an end-to-end data science workflow from data preprocessing to model evaluation.
+
+##  Repository Structure
+
+```text
+student-mental-health-risk-prediction/
+│
+├── notebooks/
+│   ├── 01_depression_risk_analysis.ipynb
+│   └── 02_stress_prediction_analysis.ipynb
+│
+├── report/
+│   └── Rita_Nicholas_MSc_Dissertation.pdf
+│
+├── presentation/
+│   └── Project_Presentation.pptx
+│
+├── images/
+│   └── (Project screenshots and visualisations)
+│
+├── data/
+│   └── README.md
+│
+└── README.md
+```
 Tech Stack: Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Jupyter Notebook, Excel
 
 Workflow:
