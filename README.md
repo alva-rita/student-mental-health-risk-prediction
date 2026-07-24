@@ -114,6 +114,8 @@ The datasets were selected because they:
 
 A structured preprocessing pipeline was implemented to improve data quality, reduce noise and prepare both datasets for machine learning.
 
+![Data Preprocessing Pipeline](images/DataPreprocessing.png)
+
 Key preprocessing activities included:
 
 - Removal of non-predictive variables such as **ID**.
@@ -124,6 +126,7 @@ Key preprocessing activities included:
 - Discretisation of numerical variables including **Age**, **CGPA**, and **Sleep Duration**.
 - Evaluation of low-variance variables before deciding whether to retain or remove them.
 - Correlation analysis to better understand relationships between predictor variables and target outcomes.
+![Stress Correlation Heatmap](images/StressHeatMap.png)
 
 These preprocessing steps produced structured datasets that improved model performance while maintaining interpretability.
 
@@ -162,6 +165,14 @@ Model performance was assessed using:
 - Recall
 - F1-score
 - Confusion Matrix
+
+### Stress Prediction
+
+![Stress Confusion Matrix](images/ConfusionMatrixS.png)
+
+### Depression Prediction
+
+![Depression Confusion Matrix](images/ConfusionMatrixD.png)
 
 Across both datasets, **Logistic Regression consistently achieved the highest overall predictive performance**, outperforming the more complex Decision Tree and Random Forest models.
 
