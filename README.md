@@ -2,8 +2,9 @@
 
 A comparative machine learning project that predicts **student depression** and **stress levels** using supervised learning models. The project compares **Logistic Regression, Decision Tree, and Random Forest** across two publicly available datasets, demonstrating how effective data preprocessing and feature engineering improve predictive performance while maintaining model interpretability.
 
-Key Achievement: Logistic Regression achieved the highest predictive performance on both datasets, highlighting the importance of data quality over model complexity.
+**Key Achievement**
 
+Logistic Regression achieved the highest predictive performance across both datasets, demonstrating that effective preprocessing and feature engineering can outperform increased model complexity.
 
 ## Project Overview
 
@@ -29,30 +30,6 @@ The primary objectives of this project were to:
 - Assess model robustness under real-world data conditions, including missing values, outliers, and multicollinearity.
 - Identify the most influential factors associated with student mental health outcomes.
 - Demonstrate an end-to-end data science workflow from data preprocessing to model evaluation.
-
-##  Repository Structure
-
-```text
-student-mental-health-risk-prediction/
-│
-├── notebooks/
-│   ├── 01_depression_risk_analysis.ipynb
-│   └── 02_stress_prediction_analysis.ipynb
-│
-├── report/
-│   └── Rita_Nicholas_MSc_Dissertation.pdf
-│
-├── presentation/
-│   └── Project_Presentation.pptx
-│
-├── images/
-│   └── (Project screenshots and visualisations)
-│
-├── data/
-│   └── README.md
-│
-└── README.md
-```
 
 ## Technology Stack
 
@@ -154,7 +131,7 @@ Three supervised machine learning models were evaluated on both datasets using c
 |--------|:-----------------:|:---------------------:|
 | Logistic Regression | **91.5%** | **83.3%** |
 | Decision Tree | **89%** | **75.7%** |
-| Random Forest | **88.5%** | **82.6** |
+| Random Forest | **88.5%** | **82.6%** |
 
 ### Evaluation Metrics
 
@@ -264,6 +241,30 @@ Open either notebook:
 
 Run the notebook cells sequentially to reproduce the preprocessing, model training, evaluation, and visualisations.
 
+##  Repository Structure
+
+```text
+student-mental-health-risk-prediction/
+│
+├── notebooks/
+│   ├── 01_depression_risk_analysis.ipynb
+│   └── 02_stress_prediction_analysis.ipynb
+│
+├── report/
+│   └── Rita_Nicholas_MSc_Dissertation.pdf
+│
+├── presentation/
+│   └── Project_Presentation.pptx
+│
+├── images/
+│   └── (Project screenshots and visualisations)
+│
+├── data/
+│   └── README.md
+│
+└── README.md
+```
+
 ## Future Improvements
 
 While the project achieved strong predictive performance, several opportunities exist for future enhancement:
@@ -280,12 +281,5 @@ While the project achieved strong predictive performance, several opportunities 
 
 Product Manager transitioning into Data Analytics and Machine Learning, with experience delivering digital products within the fintech industry. Passionate about applying data-driven solutions to solve real-world problems across healthcare, education and financial technology.
 
-- 💼 LinkedIn: *linkedin.com/in/rita-nicholas*
+- 💼 LinkedIn: [Rita Nicholas](https://linkedin.com/in/rita-nicholas)
 - 💻 GitHub: https://github.com/alva-rita
-
-## References
-
-- Kaggle – Student Depression Dataset
-- Kaggle – Student Stress Monitoring Dataset
-- Scikit-learn Documentation
-- The Elements of Statistical Learning – Hastie, Tibshirani & Friedman
