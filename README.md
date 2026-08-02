@@ -6,6 +6,10 @@ A comparative machine learning project that predicts **student depression** and 
 
 Logistic Regression achieved the highest predictive performance across both datasets, demonstrating that effective preprocessing and feature engineering can outperform increased model complexity.
 
+## Live Application
+
+[Launch the Student Mental Health Risk Prediction App](https://alva-rita-student-mental-health-risk-prediction-app-tosdrb.streamlit.app/)
+
 ## Project Overview
 
 Universities collect large amounts of student-related data, yet many lack systems capable of identifying students at risk of mental health challenges before they escalate. Early identification can support timely interventions and improve student wellbeing and academic success.
